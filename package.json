@@ -69,7 +69,7 @@
           "name": "minutes",
           "placeholder": "Minutes",
           "type": "text",
-          "required": true
+          "required": false
         }
       ]
     },

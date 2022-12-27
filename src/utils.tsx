@@ -14,7 +14,7 @@ export async function startFocus25() {
   await runAppleScript('do shell script "open focus://focus?minutes=25"');
 }
 
-export async function startFocusCustom(hours, minutes) {
+export async function startFocusCustom(hours?: number, minutes?: number) {
   await runAppleScript(`do shell script "open focus://focus?hours=${hours}&minutes=${minutes}"`);
 }
 
@@ -22,7 +22,7 @@ export async function takeBreak5() {
   await runAppleScript('do shell script "open focus://break?minutes=5"');
 }
 
-export async function takeBreakCustom(minutes) {
+export async function takeBreakCustom(minutes?: number) {
   await runAppleScript(`do shell script "open focus://break?minutes=${minutes}"`);
 }
 
