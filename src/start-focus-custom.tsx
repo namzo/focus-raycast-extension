@@ -1,5 +1,5 @@
 // Fix this later
-import { Toast, Form, LaunchProps } from "@raycast/api";
+import { Toast, LaunchProps } from "@raycast/api";
 import { getInstallStatus, startFocusCustom } from "./utils";
 
 interface FocusArguments {

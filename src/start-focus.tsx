@@ -1,4 +1,4 @@
-import { showHUD, Toast } from "@raycast/api";
+import { Toast } from "@raycast/api";
 import { getInstallStatus, startFocus } from "./utils";
 
 export default async function () {
