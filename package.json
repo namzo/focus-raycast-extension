@@ -1,8 +1,8 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "focus",
-  "title": "Focus",
-  "description": "Raycast extension for Focus - Website Blocker For Mac",
+  "title": "Focus - Website Blocker For Mac",
+  "description": "Raycast extension for Focus app",
   "icon": "focus-icon.png",
   "author": "ernest",
   "categories": [
@@ -31,7 +31,7 @@
       "name": "start-focus-custom",
       "title": "Focus (Custom Duration)",
       "subtitle": "Focus",
-      "description": "Start an focus session with custom duration",
+      "description": "Start a focus session with custom duration",
       "keywords": ["start", "custom-focus"],
       "mode": "no-view",
       "arguments": [
