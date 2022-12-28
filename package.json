@@ -41,21 +41,7 @@
         "start",
         "custom-focus"
       ],
-      "mode": "no-view",
-      "arguments": [
-        {
-          "name": "hours",
-          "placeholder": "Hours",
-          "type": "text",
-          "required": false
-        },
-        {
-          "name": "minutes",
-          "placeholder": "Minutes",
-          "type": "text",
-          "required": false
-        }
-      ]
+      "mode": "view"
     },
     {
       "name": "take-break-5",
